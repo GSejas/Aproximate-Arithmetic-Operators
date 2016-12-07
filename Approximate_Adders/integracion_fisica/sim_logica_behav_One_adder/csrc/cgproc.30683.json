@@ -1,0 +1,104 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "ACA_I_N32_Q8": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "ACA_II_N16_Q8": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "ACA_II_N16_Q4": {},
+        "ACA_II_N32_Q16": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "ACA_II_N8_Q4": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "ACA_I_N16_Q4": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "RUrYK_d": {
+            "mod": "ACA_II_N32_Q16",
+            "bytes": 14099,
+            "out": "RUrYK_d.o",
+            "archive": "archive.2/_30683_archive_1.a",
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "bytes": 14493,
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "aHm9C_d": {
+            "mod": "ACA_II_N16_Q8",
+            "bytes": 13263,
+            "out": "aHm9C_d.o",
+            "archive": "archive.2/_30683_archive_1.a",
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "VwjPb_d": {
+            "mod": "ACA_II_N8_Q4",
+            "bytes": 12790,
+            "out": "VwjPb_d.o",
+            "archive": "archive.2/_30683_archive_1.a",
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "zs2gM_d": {
+            "mod": "ACA_I_N16_Q4",
+            "bytes": 17004,
+            "out": "zs2gM_d.o",
+            "archive": "archive.2/_30683_archive_1.a",
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "aCstj_d": {
+            "mod": "ACA_I_N32_Q8",
+            "bytes": 28610,
+            "out": "aCstj_d.o",
+            "archive": "archive.2/_30683_archive_1.a",
+            "mode": 4,
+            "checksum": 4294967295
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.2/_30683_archive_1.a",
+            "objects": [
+                [
+                    "aHm9C_d.o",
+                    13263
+                ],
+                [
+                    "RUrYK_d.o",
+                    14099
+                ],
+                [
+                    "VwjPb_d.o",
+                    12790
+                ],
+                [
+                    "zs2gM_d.o",
+                    17004
+                ],
+                [
+                    "aCstj_d.o",
+                    28610
+                ]
+            ],
+            "size": 85766
+        }
+    ],
+    "reusePaths": {}
+}

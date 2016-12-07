@@ -1,0 +1,718 @@
+{
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "quadSpeed": 20391.15457273032,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.157975,
+            "ru_stime_sec": 0.047992,
+            "ru_minflt": 13128,
+            "ru_maxrss_kb": 53656,
+            "ru_majflt": 0,
+            "ru_nvcsw": 190,
+            "ru_nivcsw": 57
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "nMops": 912,
+        "nQuads": 367,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "totalObjSize": 116220,
+        "ru_self_end": {
+            "ru_utime_sec": 0.17597299999999999,
+            "ru_stime_sec": 0.059990000000000002,
+            "ru_minflt": 15525,
+            "ru_maxrss_kb": 61656,
+            "ru_majflt": 0,
+            "ru_nvcsw": 253,
+            "ru_nivcsw": 60
+        },
+        "outputSizePerQuad": 316.0,
+        "mopSpeed": 50672.296921880246,
+        "Frontend(%)": 89.772294613378207,
+        "mop/quad": 2.4850136239782015,
+        "CodeGen(%)": 10.227705386621803
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "ACA_II_N16_Q4",
+        "ACA_II_N16_Q8",
+        "ACA_II_N32_Q16",
+        "ACA_II_N8_Q4",
+        "ACA_I_N16_Q4",
+        "ACA_I_N32_Q8",
+        "ACA_I_N8_Q5",
+        "ETAII_N16_Q4",
+        "ETAII_N16_Q8",
+        "GDA_St_N16_M4_P4",
+        "GDA_St_N16_M4_P8",
+        "LOAGDA_St_N16_M4_P4",
+        "LOAGDA_St_N16_M4_P8",
+        "GDA_St_N8_M4_P2",
+        "GDA_St_N8_M4_P4",
+        "GDA_St_N8_M8_P1",
+        "GDA_St_N8_M8_P2",
+        "GDA_St_N8_M8_P3",
+        "GDA_St_N8_M8_P4",
+        "GDA_St_N8_M8_P5",
+        "GDA_St_N8_M8_P6",
+        "GDA_dyn_N16_M4",
+        "GeAr_N16_R2_P4",
+        "GeAr_N16_R4_P4",
+        "GeAr_N16_R4_P8",
+        "GeAr_N16_R6_P4",
+        "GeAr_N20_R5_P5_with_recovery",
+        "GeAr_N8_R1_P1",
+        "GeAr_N8_R1_P2",
+        "GeAr_N8_R1_P3",
+        "GeAr_N8_R1_P4",
+        "GeAr_N8_R1_P5",
+        "GeAr_N8_R1_P6",
+        "GeAr_N8_R2_P2",
+        "GeAr_N8_R2_P4",
+        "GeAr_N9_R4_P1",
+        "RCA_N16",
+        "RCA_N20",
+        "Testbench_Adder"
+    ],
+    "MlibObjs": {},
+    "Misc": {
+        "csrc_abs": "/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simulacion_logica_behavioral/csrc",
+        "cwd": "/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simulacion_logica_behavioral",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.197",
+        "daidir_abs": "/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simulacion_logica_behavioral/simv.daidir"
+    },
+    "CompileProcesses": [
+        "cgproc.21586.json"
+    ],
+    "PrevCompiledModules": {
+        "GeAr_N16_R6_P4": {
+            "PQb9U_d": {
+                "bytes": 10740,
+                "mod": "GeAr_N16_R6_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "PQb9U_d.o"
+            }
+        },
+        "ACA_II_N16_Q8": {
+            "aHm9C_d": {
+                "bytes": 13263,
+                "mod": "ACA_II_N16_Q8",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "aHm9C_d.o"
+            }
+        },
+        "GDA_dyn_N16_M4": {
+            "tjZPa_d": {
+                "bytes": 40356,
+                "mod": "GDA_dyn_N16_M4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "tjZPa_d.o"
+            }
+        },
+        "ACA_II_N8_Q4": {
+            "VwjPb_d": {
+                "bytes": 12790,
+                "mod": "ACA_II_N8_Q4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "VwjPb_d.o"
+            }
+        },
+        "GDA_St_N8_M4_P4": {
+            "QKATJ_d": {
+                "bytes": 24081,
+                "mod": "GDA_St_N8_M4_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "QKATJ_d.o"
+            }
+        },
+        "GeAr_N8_R1_P4": {
+            "xeVET_d": {
+                "bytes": 10005,
+                "mod": "GeAr_N8_R1_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "xeVET_d.o"
+            }
+        },
+        "GeAr_N9_R4_P1": {
+            "jYbU0_d": {
+                "bytes": 10451,
+                "mod": "GeAr_N9_R4_P1",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "jYbU0_d.o"
+            }
+        },
+        "GeAr_N8_R2_P4": {
+            "sA3Tm_d": {
+                "bytes": 10450,
+                "mod": "GeAr_N8_R2_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "sA3Tm_d.o"
+            }
+        },
+        "RCA_N20": {
+            "c02ER_d": {
+                "bytes": 7966,
+                "mod": "RCA_N20",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "c02ER_d.o"
+            }
+        },
+        "GeAr_N16_R2_P4": {
+            "R96IZ_d": {
+                "bytes": 11720,
+                "mod": "GeAr_N16_R2_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "R96IZ_d.o"
+            }
+        },
+        "GeAr_N8_R1_P2": {
+            "acSd2_d": {
+                "bytes": 11551,
+                "mod": "GeAr_N8_R1_P2",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "acSd2_d.o"
+            }
+        },
+        "RCA_N16": {
+            "ckHDI_d": {
+                "bytes": 7966,
+                "mod": "RCA_N16",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "ckHDI_d.o"
+            }
+        },
+        "GDA_St_N8_M4_P2": {
+            "ramQ0_d": {
+                "bytes": 21523,
+                "mod": "GDA_St_N8_M4_P2",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "ramQ0_d.o"
+            }
+        },
+        "GeAr_N8_R1_P6": {
+            "q7vAP_d": {
+                "bytes": 10630,
+                "mod": "GeAr_N8_R1_P6",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "q7vAP_d.o"
+            }
+        },
+        "LOAGDA_St_N16_M4_P4": {
+            "IdrRd_d": {
+                "bytes": 33793,
+                "mod": "LOAGDA_St_N16_M4_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "IdrRd_d.o"
+            }
+        },
+        "GeAr_N8_R1_P1": {
+            "QKezJ_d": {
+                "bytes": 12315,
+                "mod": "GeAr_N8_R1_P1",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "QKezJ_d.o"
+            }
+        },
+        "LOAGDA_St_N16_M4_P8": {
+            "qKJpa_d": {
+                "bytes": 36269,
+                "mod": "LOAGDA_St_N16_M4_P8",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "qKJpa_d.o"
+            }
+        },
+        "GeAr_N16_R4_P4": {
+            "L7YZK_d": {
+                "bytes": 13263,
+                "mod": "GeAr_N16_R4_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "L7YZK_d.o"
+            }
+        },
+        "ACA_II_N16_Q4": {
+            "pC1T8_d": {
+                "bytes": 12532,
+                "mod": "ACA_II_N16_Q4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "pC1T8_d.o"
+            }
+        },
+        "GDA_St_N8_M8_P3": {
+            "wYhiU_d": {
+                "bytes": 41381,
+                "mod": "GDA_St_N8_M8_P3",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "wYhiU_d.o"
+            }
+        },
+        "GeAr_N8_R2_P2": {
+            "igk1c_d": {
+                "bytes": 12790,
+                "mod": "GeAr_N8_R2_P2",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "igk1c_d.o"
+            }
+        },
+        "GeAr_N8_R1_P3": {
+            "BWpZh_d": {
+                "bytes": 10779,
+                "mod": "GeAr_N8_R1_P3",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "BWpZh_d.o"
+            }
+        },
+        "GDA_St_N8_M8_P5": {
+            "Eet3h_d": {
+                "bytes": 47724,
+                "mod": "GDA_St_N8_M8_P5",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "Eet3h_d.o"
+            }
+        },
+        "ETAII_N16_Q4": {
+            "WQeck_d": {
+                "bytes": 13389,
+                "mod": "ETAII_N16_Q4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "WQeck_d.o"
+            }
+        },
+        "ACA_I_N32_Q8": {
+            "aCstj_d": {
+                "bytes": 28610,
+                "mod": "ACA_I_N32_Q8",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "aCstj_d.o"
+            }
+        },
+        "GeAr_N8_R1_P5": {
+            "qI9sN_d": {
+                "bytes": 12846,
+                "mod": "GeAr_N8_R1_P5",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "qI9sN_d.o"
+            }
+        },
+        "ACA_I_N16_Q4": {
+            "zs2gM_d": {
+                "bytes": 17004,
+                "mod": "ACA_I_N16_Q4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "zs2gM_d.o"
+            }
+        },
+        "GDA_St_N8_M8_P1": {
+            "JQUqR_d": {
+                "bytes": 31416,
+                "mod": "GDA_St_N8_M8_P1",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "JQUqR_d.o"
+            }
+        },
+        "GeAr_N16_R4_P8": {
+            "YD5JR_d": {
+                "bytes": 10740,
+                "mod": "GeAr_N16_R4_P8",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "YD5JR_d.o"
+            }
+        },
+        "GDA_St_N8_M8_P2": {
+            "KLgCF_d": {
+                "bytes": 37474,
+                "mod": "GDA_St_N8_M8_P2",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "KLgCF_d.o"
+            }
+        },
+        "GDA_St_N8_M8_P4": {
+            "JVW5g_d": {
+                "bytes": 45517,
+                "mod": "GDA_St_N8_M8_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "JVW5g_d.o"
+            }
+        },
+        "GDA_St_N8_M8_P6": {
+            "eMsnZ_d": {
+                "bytes": 49764,
+                "mod": "GDA_St_N8_M8_P6",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "eMsnZ_d.o"
+            }
+        },
+        "ACA_I_N8_Q5": {
+            "ejbcN_d": {
+                "bytes": 10005,
+                "mod": "ACA_I_N8_Q5",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "ejbcN_d.o"
+            }
+        },
+        "Testbench_Adder": {
+            "pygHW_d": {
+                "bytes": 27563,
+                "mod": "Testbench_Adder",
+                "out": "pygHW_d.o",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_21586_archive_1.a"
+            }
+        },
+        "GeAr_N20_R5_P5_with_recovery": {
+            "sxyFb_d": {
+                "bytes": 24489,
+                "mod": "GeAr_N20_R5_P5_with_recovery",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "sxyFb_d.o"
+            }
+        },
+        "ACA_II_N32_Q16": {
+            "RUrYK_d": {
+                "bytes": 14099,
+                "mod": "ACA_II_N32_Q16",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "RUrYK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 13393,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "ETAII_N16_Q8": {
+            "xEcig_d": {
+                "bytes": 10285,
+                "mod": "ETAII_N16_Q8",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "xEcig_d.o"
+            }
+        },
+        "GDA_St_N16_M4_P4": {
+            "Akt2a_d": {
+                "bytes": 33797,
+                "mod": "GDA_St_N16_M4_P4",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "Akt2a_d.o"
+            }
+        },
+        "GDA_St_N16_M4_P8": {
+            "W581m_d": {
+                "bytes": 36273,
+                "mod": "GDA_St_N16_M4_P8",
+                "checksum": 4294967295,
+                "mode": 4,
+                "archive": "archive.197/_prev_archive_1.a",
+                "out": "W581m_d.o"
+            }
+        }
+    },
+    "NameTable": {
+        "GDA_St_N16_M4_P4": [
+            "GDA_St_N16_M4_P4",
+            "Akt2a",
+            "module"
+        ],
+        "ACA_II_N16_Q4": [
+            "ACA_II_N16_Q4",
+            "pC1T8",
+            "module"
+        ],
+        "GDA_St_N8_M8_P3": [
+            "GDA_St_N8_M8_P3",
+            "wYhiU",
+            "module"
+        ],
+        "GeAr_N9_R4_P1": [
+            "GeAr_N9_R4_P1",
+            "jYbU0",
+            "module"
+        ],
+        "GDA_St_N8_M4_P4": [
+            "GDA_St_N8_M4_P4",
+            "QKATJ",
+            "module"
+        ],
+        "ACA_II_N8_Q4": [
+            "ACA_II_N8_Q4",
+            "VwjPb",
+            "module"
+        ],
+        "GeAr_N8_R1_P4": [
+            "GeAr_N8_R1_P4",
+            "xeVET",
+            "module"
+        ],
+        "ACA_II_N32_Q16": [
+            "ACA_II_N32_Q16",
+            "RUrYK",
+            "module"
+        ],
+        "ETAII_N16_Q8": [
+            "ETAII_N16_Q8",
+            "xEcig",
+            "module"
+        ],
+        "ACA_II_N16_Q8": [
+            "ACA_II_N16_Q8",
+            "aHm9C",
+            "module"
+        ],
+        "GeAr_N16_R6_P4": [
+            "GeAr_N16_R6_P4",
+            "PQb9U",
+            "module"
+        ],
+        "GDA_dyn_N16_M4": [
+            "GDA_dyn_N16_M4",
+            "tjZPa",
+            "module"
+        ],
+        "ACA_I_N16_Q4": [
+            "ACA_I_N16_Q4",
+            "zs2gM",
+            "module"
+        ],
+        "GeAr_N8_R1_P5": [
+            "GeAr_N8_R1_P5",
+            "qI9sN",
+            "module"
+        ],
+        "GeAr_N8_R2_P2": [
+            "GeAr_N8_R2_P2",
+            "igk1c",
+            "module"
+        ],
+        "ETAII_N16_Q4": [
+            "ETAII_N16_Q4",
+            "WQeck",
+            "module"
+        ],
+        "GDA_St_N8_M8_P5": [
+            "GDA_St_N8_M8_P5",
+            "Eet3h",
+            "module"
+        ],
+        "GeAr_N8_R1_P3": [
+            "GeAr_N8_R1_P3",
+            "BWpZh",
+            "module"
+        ],
+        "ACA_I_N32_Q8": [
+            "ACA_I_N32_Q8",
+            "aCstj",
+            "module"
+        ],
+        "ACA_I_N8_Q5": [
+            "ACA_I_N8_Q5",
+            "ejbcN",
+            "module"
+        ],
+        "GDA_St_N16_M4_P8": [
+            "GDA_St_N16_M4_P8",
+            "W581m",
+            "module"
+        ],
+        "GeAr_N8_R1_P6": [
+            "GeAr_N8_R1_P6",
+            "q7vAP",
+            "module"
+        ],
+        "GDA_St_N8_M4_P2": [
+            "GDA_St_N8_M4_P2",
+            "ramQ0",
+            "module"
+        ],
+        "LOAGDA_St_N16_M4_P4": [
+            "LOAGDA_St_N16_M4_P4",
+            "IdrRd",
+            "module"
+        ],
+        "LOAGDA_St_N16_M4_P8": [
+            "LOAGDA_St_N16_M4_P8",
+            "qKJpa",
+            "module"
+        ],
+        "GeAr_N16_R4_P4": [
+            "GeAr_N16_R4_P4",
+            "L7YZK",
+            "module"
+        ],
+        "GeAr_N8_R1_P1": [
+            "GeAr_N8_R1_P1",
+            "QKezJ",
+            "module"
+        ],
+        "GDA_St_N8_M8_P1": [
+            "GDA_St_N8_M8_P1",
+            "JQUqR",
+            "module"
+        ],
+        "GeAr_N16_R4_P8": [
+            "GeAr_N16_R4_P8",
+            "YD5JR",
+            "module"
+        ],
+        "GDA_St_N8_M8_P2": [
+            "GDA_St_N8_M8_P2",
+            "KLgCF",
+            "module"
+        ],
+        "GDA_St_N8_M8_P4": [
+            "GDA_St_N8_M8_P4",
+            "JVW5g",
+            "module"
+        ],
+        "GDA_St_N8_M8_P6": [
+            "GDA_St_N8_M8_P6",
+            "eMsnZ",
+            "module"
+        ],
+        "GeAr_N8_R1_P2": [
+            "GeAr_N8_R1_P2",
+            "acSd2",
+            "module"
+        ],
+        "GeAr_N16_R2_P4": [
+            "GeAr_N16_R2_P4",
+            "R96IZ",
+            "module"
+        ],
+        "GeAr_N20_R5_P5_with_recovery": [
+            "GeAr_N20_R5_P5_with_recovery",
+            "sxyFb",
+            "module"
+        ],
+        "RCA_N20": [
+            "RCA_N20",
+            "c02ER",
+            "module"
+        ],
+        "GeAr_N8_R2_P4": [
+            "GeAr_N8_R2_P4",
+            "sA3Tm",
+            "module"
+        ],
+        "RCA_N16": [
+            "RCA_N16",
+            "ckHDI",
+            "module"
+        ],
+        "Testbench_Adder": [
+            "Testbench_Adder",
+            "pygHW",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 75263
+    },
+    "PEModules": [],
+    "CompileStatus": "Successful"
+}

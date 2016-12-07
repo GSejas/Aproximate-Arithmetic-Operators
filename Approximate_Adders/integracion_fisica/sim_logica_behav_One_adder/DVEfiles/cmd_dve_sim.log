@@ -1,0 +1,72 @@
+ucliGUI::start /mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/sim_logica_behav_mult/simv  +v2k +lint=all -a log_name +define+SINGLE +define+ACAIIN16Q4 +neg_tchk -ucligui
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/sim_logica_behav_mult/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD1
+set ::dve_fid VPD1
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpvTK1dB
+synUtils::sendTool -active {_icl_start_rpc -version "K-2015.09-SP2-3_Full64" -sync_file /tmp/vcs_dve_rpc.jsequeira.4066}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.jsequeira.4066}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+if { ![gui_sim_state -check active] } {error "Simulator did not start correctly" error}
+#</Database>
+# DVE Global setting session:
+# Global: Breakpoints
+# Global: Bus
+# Global: Expressions
+# Global: Signal Time Shift
+# Global: Signal Compare
+# Global: Signal Groups
+# Global: Highlighting
+# Global: Stack
+synopsys::xml {set_only_active_frame <data value="1" />}
+# Post database loading setting...
+# Restore C1 time
+# Save global setting...
+# Wave/List view global setting
+# Close all empty TopLevel windows
+foreach __top [gui_ekki_get_window_ids -type TopLevel] {     if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {         gui_close_window -window $__top     } }
+# DVE View/pane content session:
+# Hier 'Hier.1'
+catch {gui_list_select -id ${Hier.1} {ACA_II_N16_Q8}}
+ucliGUI::getSignalValues -scope ACA_II_N16_Q8 -radix {hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal } -list {{in1[15:0]} {in2[15:0]} {res[16:0]} {temp1[8:0]} {temp2[8:0]} {temp3[8:0]} }
+# Data 'Data.1'
+# View 'Wave.1'
+set groupExD [gui_get_pref_value -category Wave -key exclusiveSG]
+set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
+set origGroupCreationState [gui_list_create_group_when_add -wave]
+if {$origGroupCreationState} { 	gui_list_create_group_when_add -wave -enable }
+if { $groupExD } {  gui_msg_report -code DVWW028 }
+# Source 'Source.1'
+# Restore toplevel window zorder
+# The toplevel window could be closed if it has no view/pane
+if {[gui_exist_window -window ${TopLevel.1}]} { 	gui_set_active_window -window ${TopLevel.1} 	gui_set_active_window -window ${Console.1} }
+#</Session>
+ucliGUI::getSignalValues -scope RegisterAdd -radix {binary binary binary hexadecimal hexadecimal decimal } -list {clk rst load {D[15:0]} {Q[15:0]} W }
+ucliGUI::getSignalValues -scope Testbench_Adder -radix {symbolic symbolic symbolic symbolic symbolic symbolic symbolic hexadecimal binary hexadecimal hexadecimal binary decimal decimal symbolic symbolic } -list {{FileResHex[31:0]} {FileResDec[31:0]} {ValTeorico[31:0]} {Error[31:0]} {RESULT[31:0]} floatERROR sumErrors {res[26:0]} clk {in1[25:0]} {in2[25:0]} add_sub PERIOD W STRINGHEX STRINGDEC }
+synopsys::dump -add {Testbench_Adder} -scope "." -depth 1 -fid VPD1
+ucliGUI::getSignalValues -scope Testbench_Adder.runAdder -radix {symbolic symbolic symbolic } -list {{ResultsFileH[31:0]} {ResultsFileD[31:0]} {Vector_size[31:0]} }
+ucliGUI::getSignalValues -scope Testbench_Adder.inst_Approx_adder -radix {binary hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal binary hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal decimal decimal decimal } -list {add_sub {in1[25:0]} {in2[25:0]} {res[26:0]} {in2_signed[25:0]} {lower_res[15:0]} approx_cout {upper_in1[9:0]} {lower_in1[15:0]} {upper_in2[9:0]} {lower_in2[15:0]} {upper_in2_signed[9:0]} {lower_in2_signed[15:0]} {temp_upper_addition[10:0]} W LowL BIGGER16.LowL }
+synopsys::dump -add {Testbench_Adder.inst_Approx_adder} -scope "." -depth 1 -fid VPD1
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+ucliGUI::getSignalValues -scope Testbench_Adder.inst_Approx_adder -radix {binary hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal binary hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal decimal decimal decimal } -list {add_sub {in1[25:0]} {in2[25:0]} {res[26:0]} {in2_signed[25:0]} {lower_res[15:0]} approx_cout {upper_in1[9:0]} {lower_in1[15:0]} {upper_in2[9:0]} {lower_in2[15:0]} {upper_in2_signed[9:0]} {lower_in2_signed[15:0]} {temp_upper_addition[10:0]} W LowL BIGGER16.LowL }
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

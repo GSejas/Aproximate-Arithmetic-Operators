@@ -1,0 +1,64 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Simple_KOA_STAGE_1_approx_SW24
+Version: L-2016.03-SP3
+Date   : Sun Nov 20 21:54:54 2016
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: Data_B_i[7]
+              (input port clocked by clk)
+  Endpoint: add_x_1_R_1001
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Simple_KOA_STAGE_1_approx_SW24
+                     ibm13_wl10            scx3_cmos8rf_lpvt_tt_1p2v_25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  input external delay                     3.50       4.50 r
+  Data_B_i[7] (in)                         0.11       4.61 r
+  U423/Y (INVX12TS)                        0.12       4.73 f
+  U1142/Y (INVX16TS)                       0.13       4.86 r
+  U342/Y (XNOR2X1TS)                       0.57       5.43 r
+  U1547/Y (OAI22X1TS)                      0.68       6.10 f
+  U727/S (ADDFHX2TS)                       0.58       6.68 f
+  U966/CO (ADDFHX2TS)                      0.36       7.05 f
+  U1635/CO (ADDFHX4TS)                     0.38       7.43 f
+  U1002/Y (NOR2X2TS)                       0.45       7.87 r
+  U993/Y (INVX2TS)                         0.36       8.24 f
+  U999/Y (NAND2X2TS)                       0.37       8.60 r
+  U2074/Y (INVX2TS)                        0.25       8.85 f
+  U992/Y (NAND2X1TS)                       0.37       9.22 r
+  U2077/Y (OAI21X1TS)                      0.42       9.64 f
+  U2078/Y (AOI21X2TS)                      0.28       9.92 r
+  U65/Y (XOR2X1TS)                         0.34      10.26 r
+  add_x_1_R_1001/D (DFFSX1TS)              0.00      10.26 r
+  data arrival time                                  10.26
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              1.00      11.00
+  clock uncertainty                       -0.50      10.50
+  add_x_1_R_1001/CK (DFFSX1TS)             0.00      10.50 r
+  library setup time                      -0.24      10.26
+  data required time                                 10.26
+  -----------------------------------------------------------
+  data required time                                 10.26
+  data arrival time                                 -10.26
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

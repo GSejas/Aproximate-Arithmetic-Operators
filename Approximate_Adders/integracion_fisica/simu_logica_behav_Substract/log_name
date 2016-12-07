@@ -1,0 +1,917 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS release 6.8 (Final)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+Command: vcs -full64 -PP -R -f file_list +v2k +lint=all -l log_name -Mupdate +define+NADA \
+-timescale=1ns/1ps +neg_tchk +sdfverbose
+                         Chronologic VCS (TM)
+      Version K-2015.09-SP2-3_Full64 -- Mon Nov 21 00:04:05 2016
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../front_end/source/ACA_II_N16_Q4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ACA_II_N16_Q4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ACA_II_N16_Q8.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ACA_II_N16_Q8.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ACA_II_N32_Q16.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ACA_II_N32_Q16.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ACA_II_N8_Q4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ACA_II_N8_Q4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ACA_I_N16_Q4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ACA_I_N16_Q4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ACA_I_N32_Q8.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ACA_I_N32_Q8.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ACA_I_N8_Q5.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ACA_I_N8_Q5.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ETAII_N16_Q4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ETAII_N16_Q4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/ETAII_N16_Q8.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/ETAII_N16_Q8.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N16_M4_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N16_M4_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+
+Lint-[IWU] Implicit wire is used
+../front_end/source/GDA_St_N16_M4_P4.v, 101
+  No type is specified for wire 'p11p10p9g8'. Default wire type is being 
+  applied according to the IEEE spec.
+  See the Verilog LRM(1364-2005), section 4.5.
+
+Parsing design file '../front_end/source/GDA_St_N16_M4_P8.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N16_M4_P8.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+
+Lint-[IWU] Implicit wire is used
+../front_end/source/GDA_St_N16_M4_P8.v, 111
+  No type is specified for wire 'p11p10p9p8'. Default wire type is being 
+  applied according to the IEEE spec.
+  See the Verilog LRM(1364-2005), section 4.5.
+
+Parsing design file '../front_end/source/GDA_St_N8_M4_P2.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M4_P2.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N8_M4_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M4_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N8_M8_P1.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M8_P1.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N8_M8_P2.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M8_P2.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N8_M8_P3.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M8_P3.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N8_M8_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M8_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N8_M8_P5.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M8_P5.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_St_N8_M8_P6.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_St_N8_M8_P6.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GDA_dyn_N16_M4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GDA_dyn_N16_M4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+
+Lint-[IWU] Implicit wire is used
+../front_end/source/GDA_dyn_N16_M4.v, 117
+  No type is specified for wire 'p11p10p9p8'. Default wire type is being 
+  applied according to the IEEE spec.
+  See the Verilog LRM(1364-2005), section 4.5.
+
+Parsing design file '../front_end/source/GeAr_N16_R2_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N16_R2_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N16_R4_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N16_R4_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N16_R4_P8.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N16_R4_P8.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N16_R6_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N16_R6_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N20_R5_P5_with_recovery.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N20_R5_P5_with_recovery.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R1_P1.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R1_P1.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R1_P2.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R1_P2.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R1_P3.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R1_P3.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R1_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R1_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R1_P5.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R1_P5.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R1_P6.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R1_P6.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R2_P2.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R2_P2.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N8_R2_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N8_R2_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/GeAr_N9_R4_P1.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/GeAr_N9_R4_P1.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/LOA.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/LOA.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/RCA_N16.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/RCA_N16.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/RCA_N20.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/RCA_N20.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/LOAGDA_St_N16_M4_P4.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/LOAGDA_St_N16_M4_P4.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+
+Lint-[IWU] Implicit wire is used
+../front_end/source/LOAGDA_St_N16_M4_P4.v, 101
+  No type is specified for wire 'p11p10p9g8'. Default wire type is being 
+  applied according to the IEEE spec.
+  See the Verilog LRM(1364-2005), section 4.5.
+
+Parsing design file '../front_end/source/LOAGDA_St_N16_M4_P8.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/LOAGDA_St_N16_M4_P8.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+
+Lint-[IWU] Implicit wire is used
+../front_end/source/LOAGDA_St_N16_M4_P8.v, 111
+  No type is specified for wire 'p11p10p9p8'. Default wire type is being 
+  applied according to the IEEE spec.
+  See the Verilog LRM(1364-2005), section 4.5.
+
+Parsing design file '../front_end/source/Approx_adder.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 32
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 40
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 48
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 56
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 64
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 72
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 80
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 89
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 97
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 107
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 116
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 126
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 136
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 146
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 156
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 165
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 174
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 182
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 190
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 198
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 205
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 212
+  Verilog compiler directive encountered "`else".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 214
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 240
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 248
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 256
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 264
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 272
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 280
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 288
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 296
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 304
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 313
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 322
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 330
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 338
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 346
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 353
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 360
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 368
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 376
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 384
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 392
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 400
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 408
+  Verilog compiler directive encountered "`elsif".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 416
+  Verilog compiler directive encountered "`else".
+
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/Approx_adder.v, 418
+  Verilog compiler directive encountered "`endif".
+
+Parsing design file '../front_end/source/KOA_1c_approx.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/KOA_1c_approx.v, 30
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/KOA_2c_approx.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/KOA_2c_approx.v, 29
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/cmult.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/cmult.v, 15
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/mult2.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/mult2.v, 15
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '../front_end/source/RegisterAdd.v'
+
+Lint-[VCDE] Compiler directive encountered
+../front_end/source/RegisterAdd.v, 1
+  Verilog compiler directive encountered "`timescale".
+
+Parsing design file '/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v'
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 14
+  Verilog compiler directive encountered "`timescale".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 36
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 39
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 41
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 44
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 46
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 49
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 51
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 54
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 56
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 59
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 61
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 64
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 66
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 69
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 71
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 74
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 76
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 79
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 81
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 84
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 86
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 89
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 91
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 94
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 96
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 99
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 101
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 104
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 106
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 109
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 111
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 114
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 116
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 119
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 121
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 124
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 126
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 129
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 131
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 134
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 136
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 139
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 141
+  Verilog compiler directive encountered "`ifdef".
+
+
+Lint-[VCDE] Compiler directive encountered
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 144
+  Verilog compiler directive encountered "`endif".
+
+
+Lint-[NS] Null statement
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 163
+  Null statement is used in following verilog source.
+  
+
+
+Lint-[NS] Null statement
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 165
+  Null statement is used in following verilog source.
+  
+
+
+Lint-[NS] Null statement
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 187
+  Null statement is used in following verilog source.
+  
+
+
+Lint-[NS] Null statement
+/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v, 190
+  Null statement is used in following verilog source.
+  
+
+Top Level Modules:
+       ACA_II_N16_Q4
+       ACA_II_N16_Q8
+       ACA_II_N32_Q16
+       ACA_II_N8_Q4
+       ACA_I_N16_Q4
+       ACA_I_N32_Q8
+       ACA_I_N8_Q5
+       ETAII_N16_Q4
+       ETAII_N16_Q8
+       GDA_St_N16_M4_P4
+       GDA_St_N16_M4_P8
+       GDA_St_N8_M4_P2
+       GDA_St_N8_M4_P4
+       GDA_St_N8_M8_P1
+       GDA_St_N8_M8_P2
+       GDA_St_N8_M8_P3
+       GDA_St_N8_M8_P4
+       GDA_St_N8_M8_P5
+       GDA_St_N8_M8_P6
+       GDA_dyn_N16_M4
+       GeAr_N16_R2_P4
+       GeAr_N16_R4_P4
+       GeAr_N16_R4_P8
+       GeAr_N16_R6_P4
+       GeAr_N20_R5_P5_with_recovery
+       GeAr_N8_R1_P1
+       GeAr_N8_R1_P2
+       GeAr_N8_R1_P3
+       GeAr_N8_R1_P4
+       GeAr_N8_R1_P5
+       GeAr_N8_R1_P6
+       GeAr_N8_R2_P2
+       GeAr_N8_R2_P4
+       GeAr_N9_R4_P1
+       LOA
+       RCA_N16
+       RCA_N20
+       LOAGDA_St_N16_M4_P4
+       LOAGDA_St_N16_M4_P8
+       Simple_KOA_STAGE_1_approx
+       Simple_KOA_STAGE_2_approx
+       FFD_NoCE
+       Testbench_Substraction
+TimeScale is 1 ns / 1 ps
+
+Lint-[VNGS] Variable never gets set
+../front_end/source/Approx_adder.v, 17
+  Following variable has never been set any value.
+  Source info: BIGGER16.in2_signed
+
+
+Lint-[VNGS] Variable never gets set
+../front_end/source/Approx_adder.v, 17
+  Following variable has never been set any value.
+  Source info: BIGGER16.in2_signed
+
+Starting vcs inline pass...
+43 modules and 0 UDP read.
+	However, due to incremental compilation, only 9 modules need to be compiled.
+recompiling module LOA because:
+	Signal dependencies have changed
+recompiling module RCA_N16 because:
+	Signal dependencies have changed
+recompiling module RCA_N20 because:
+	Signal dependencies have changed
+recompiling module LOAGDA_St_N16_M4_P4 because:
+	Signal dependencies have changed
+recompiling module LOAGDA_St_N16_M4_P8 because:
+	Signal dependencies have changed
+recompiling module Simple_KOA_STAGE_1_approx because:
+	Signal dependencies have changed
+	Module parameters have been changed via defparam.
+recompiling module Simple_KOA_STAGE_2_approx because:
+	Signal dependencies have changed
+	Module parameters have been changed via defparam.
+recompiling module FFD_NoCE because:
+	Signal dependencies have changed
+recompiling module Testbench_Substraction because:
+	Signal dependencies have changed
+	Module parameters have been changed via defparam.
+All of 9 modules done
+rm -f _csrc*.so linux64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o \
+_19848_archive_1.so _prev_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o \
+rmar_llvm_0_1.o rmar_llvm_0_0.o          /mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/libzerosoft_rt_stubs.so \
+/mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/libvirsim.so \
+/mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/liberrorinf.so \
+/mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/libsnpsmalloc.so \
+/mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/libvcsnew.so \
+/mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/libsimprofile.so \
+/mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/libuclinative.so \
+-Wl,-whole-archive /mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/libvcsucli.so \
+-Wl,-no-whole-archive          /mnt/vol_NFS_Zener/tools/synopsys/apps/vcs-mx/K-2015.09-SP2-3/linux64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Command: ./simv +v2k +lint=all -a log_name +define+NADA +neg_tchk +sdfverbose
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09-SP2-3_Full64; Runtime version K-2015.09-SP2-3_Full64;  Nov 21 00:04 2016
+$finish called from file "/mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/Documents/Dise-o-ASIC-FPGA-FPU/ASIC_FLOW/Approximate_Adders/integracion_fisica/simu_logica_behav_Substract/Testbench_approx_adder.v", line 169.
+$finish at simulation time           2000106000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2000106000 ps
+CPU Time:      1.350 seconds;       Data structure size:   0.0Mb
+Mon Nov 21 00:04:08 2016
+CPU time: .459 seconds to compile + .432 seconds to elab + .183 seconds to link + 1.488 seconds in simulation

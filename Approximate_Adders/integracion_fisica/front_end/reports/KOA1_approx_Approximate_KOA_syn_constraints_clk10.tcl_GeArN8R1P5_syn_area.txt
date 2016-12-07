@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : Simple_KOA_STAGE_1_approx_SW24
+Version: L-2016.03-SP3
+Date   : Sun Nov 20 21:44:16 2016
+****************************************
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /media/datos/IBM/TECH/ibm130_lp/digital/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                           99
+Number of nets:                          3012
+Number of cells:                         2674
+Number of combinational cells:           2493
+Number of sequential cells:               181
+Number of macros/black boxes:               0
+Number of buf/inv:                        551
+Number of references:                     103
+
+Combinational area:              38627.999796
+Buf/Inv area:                     3500.640097
+Noncombinational area:            5711.039892
+Macro/Black Box area:                0.000000
+Net Interconnect area:          284248.103455
+
+Total cell area:                 44339.039688
+Total area:                     328587.143143
+1

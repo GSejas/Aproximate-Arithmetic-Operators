@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Simple_KOA_STAGE_1_approx_SW24
+Version: L-2016.03-SP3
+Date   : Sun Nov 20 21:43:08 2016
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: Data_A_i[5]
+              (input port clocked by clk)
+  Endpoint: DP_OP_58J12_124_764_R_1009
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Simple_KOA_STAGE_1_approx_SW24
+                     ibm13_wl10            scx3_cmos8rf_lpvt_tt_1p2v_25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  input external delay                                    3.50       4.50 f
+  Data_A_i[5] (in)                                        0.05       4.55 f
+  U991/Y (INVX4TS)                                        0.19       4.74 r
+  U760/Y (INVX12TS)                                       0.16       4.90 f
+  U1253/Y (XNOR2X1TS)                                     0.51       5.41 r
+  U1898/Y (OAI22X1TS)                                     0.61       6.03 f
+  U1643/CO (ADDFHX2TS)                                    0.74       6.76 f
+  U1642/CO (ADDFHX4TS)                                    0.50       7.26 f
+  U226/Y (INVX6TS)                                        0.12       7.38 r
+  U2108/CO (ADDFHX2TS)                                    0.55       7.93 r
+  U1408/S (ADDFHX4TS)                                     0.45       8.38 r
+  U1617/S (ADDFHX4TS)                                     0.53       8.91 r
+  U1616/S (ADDFHX4TS)                                     0.44       9.35 f
+  U147/Y (CLKINVX6TS)                                     0.11       9.46 r
+  U138/Y (NAND2X6TS)                                      0.11       9.57 f
+  U1094/Y (BUFX6TS)                                       0.20       9.77 f
+  U1445/Y (NAND3X6TS)                                     0.14       9.91 r
+  U1215/Y (NAND2X8TS)                                     0.13      10.04 f
+  U920/Y (AOI21X4TS)                                      0.18      10.22 r
+  DP_OP_58J12_124_764_R_1009/D (DFFRXLTS)                 0.00      10.22 r
+  data arrival time                                                 10.22
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             1.00      11.00
+  clock uncertainty                                      -0.50      10.50
+  DP_OP_58J12_124_764_R_1009/CK (DFFRXLTS)                0.00      10.50 r
+  library setup time                                     -0.28      10.22
+  data required time                                                10.22
+  --------------------------------------------------------------------------
+  data required time                                                10.22
+  data arrival time                                                -10.22
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

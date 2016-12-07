@@ -1,0 +1,135 @@
+{
+    "reusePaths": {},
+    "Modules": {
+        "ACA_II_N16_Q4": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "ACA_II_N32_Q16": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "ACA_II_N8_Q4": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "ACA_I_N16_Q4": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "ACA_I_N32_Q8": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "ACA_I_N8_Q5": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "ETAII_N16_Q4": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.87/_11731_archive_1.a",
+            "objects": [
+                [
+                    "pC1T8_d.o",
+                    12532
+                ],
+                [
+                    "RUrYK_d.o",
+                    14099
+                ],
+                [
+                    "VwjPb_d.o",
+                    12790
+                ],
+                [
+                    "zs2gM_d.o",
+                    17004
+                ],
+                [
+                    "aCstj_d.o",
+                    28610
+                ],
+                [
+                    "ejbcN_d.o",
+                    10005
+                ],
+                [
+                    "WQeck_d.o",
+                    13389
+                ]
+            ],
+            "size": 108429
+        }
+    ],
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 14493,
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "WQeck_d": {
+            "mod": "ETAII_N16_Q4",
+            "out": "WQeck_d.o",
+            "bytes": 13389,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.87/_11731_archive_1.a"
+        },
+        "ejbcN_d": {
+            "mod": "ACA_I_N8_Q5",
+            "out": "ejbcN_d.o",
+            "bytes": 10005,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.87/_11731_archive_1.a"
+        },
+        "pC1T8_d": {
+            "mod": "ACA_II_N16_Q4",
+            "out": "pC1T8_d.o",
+            "bytes": 12532,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.87/_11731_archive_1.a"
+        },
+        "RUrYK_d": {
+            "mod": "ACA_II_N32_Q16",
+            "out": "RUrYK_d.o",
+            "bytes": 14099,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.87/_11731_archive_1.a"
+        },
+        "VwjPb_d": {
+            "mod": "ACA_II_N8_Q4",
+            "out": "VwjPb_d.o",
+            "bytes": 12790,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.87/_11731_archive_1.a"
+        },
+        "zs2gM_d": {
+            "mod": "ACA_I_N16_Q4",
+            "out": "zs2gM_d.o",
+            "bytes": 17004,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.87/_11731_archive_1.a"
+        },
+        "aCstj_d": {
+            "mod": "ACA_I_N32_Q8",
+            "out": "aCstj_d.o",
+            "bytes": 28610,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.87/_11731_archive_1.a"
+        }
+    }
+}
