@@ -7,19 +7,18 @@
 #Fecha de creación:
 
 ####################################################################################################################################
-set PRECISION(0) "SINGLE";
-set PRECISION(1) "DOUBLE";
-set PREC_PARAM(0) "W=32,SW=23,EW=8,SWR=26,EWR=5";
-set PREC_PARAM(1) "W=64,SW=52,EW=11,SWR=55,EWR=6";
+
+set PREC_PARAM(0) "W=16";
+
 # Eliminar diseños previos
 set DESIGN_NAME  "FPU_Interface"
 set TOP_NAME     "FPU_Interface"
-set CONTRAINTS_FILE_NAME "ASIC_fpu_syn_constraints.tcl"
+set CONTRAINTS_FILE_NAME "Approximate_Adders_syn_constraints.tcl"
 set compile_fix_cell_degradation true
 
 # NOMBRE DEL MACRO DE LAS ARQUITECTURAS EN CUESTION
-set MULT_ARCHS "KOA_1STAGE RKOA_1STAGE DW_1STAGE KOA_2STAGE RKOA_2STAGE"
-set MARCH [split $MULT_ARCHS "\ "]
+set ADD_ARCHS "ACAI ACAII ETAI GDA RCA LOA GeAr"
+set AARCH [split $ADD_ARCHS "\ "]
 
 remove_design -designs
 suppress_message LINT-321
@@ -35,20 +34,10 @@ set data [split $file_sources "\n"]
 
 foreach line $data {
   analyze -library WORK -format verilog "$line"
-}
 
-#source "ASIC_fpaddsub_arch2_syn_2.tcl"
-
-set x 0;
-while {$x < 2} {
-    foreach mult_arch $MARCH {
-
-    # Re analizamos el diseno FPU_MULT, ya que se debe de tomar en consideracion
-    # cada modulo bajo prueba. Esto se puede expandir para diferentes arquitecturas futuras
-    analyze -library WORK -define "$mult_arch" -format verilog "FPU_Multiplication_Function.v"
-
+  set line2 [string trim $line ".v"]
   #Elaboramos el módulo principal
-  elaborate $TOP_NAME -parameters "$PREC_PARAM($x)" -architecture verilog -library WORK
+  elaborate $line2 -architecture verilog -library WORK
 
   uniquify
 
@@ -58,7 +47,7 @@ while {$x < 2} {
 
    #Escribir el archivo *.ddc (base de datos sin sintetizar)
    write -hierarchy -format ddc -output \
-   ./db/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_unmapped.ddc
+   ./db/$line2\_syn_unmapped.ddc
 
   # #Aplicar especificaciones de diseño (constraints)
    source $CONTRAINTS_FILE_NAME
@@ -75,45 +64,36 @@ while {$x < 2} {
   #Escribir la lista de nodos a nivel de compuertas (Gate Level Netlist) que se utiliza para:
   #- Verificar el funcionamiento lógico del sistema digital después de la Síntesis RTL.
   #- Como una de las entradas para el sintetizador físico (IC Compiler).
-  set TOP_PARAM $current_design
-
-  #LO SIGUIENTE SE VA A COMENTAR PARA NO GENERAR UNA VERSION APARTE DE LA SECCION OPER_IN_OP
-
-  current_design "$TOP_PARAM"
 
   set verilogout_no_tri true
   change_names -hierarchy -rules verilog
   write -hierarchy -format verilog -output \
-  ./db/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn.v
+  ./db/$line2\_syn.v
 
   #Generar los reportes
 
-  report_power -analysis_effort high > reports/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_power.txt
-  report_area >   reports/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_area.txt
-  report_cell >   reports/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_cell.txt
-  report_qor >    reports/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_qor.txt
-  report_timing > reports/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_timing.txt
-  report_port >   reports/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_port.txt
+  report_power -analysis_effort high > reports/$line2\_syn_power.txt
+  report_area >   reports/$line2\_syn_area.txt
+  report_cell >   reports/$line2\_syn_cell.txt
+  report_qor >    reports/$line2\_syn_qor.txt
+  report_timing > reports/$line2\_syn_timing.txt
+  report_port >   reports/$line2\_syn_port.txt
 
   #Escribir el archivo *.ddc (base de datos sintetizada)
   write -hierarchy -format ddc -output \
-  ./db/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn_mapped.ddc
+  ./db/$TOP_NAME\_$line2\_syn_mapped.ddc
 
   #Escribir el archivo *.sdc (Synopsys Design Constraints), utilizado como una de las entradas
   #para el sintetizador físico (IC Compiler)
-  write_sdc ./db/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn.sdc
-  write_sdf ./db/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn.sdf
-  write_sdf ../simulacion_logica_sintesis/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn.sdf
+  write_sdc ./db/$line2\_syn.sdc
+  write_sdf ./db/$line2\_syn.sdf
+  write_sdf ../simulacion_logica_sintesis/$line2\_syn.sdf
 
   ##LE AGREGAMOS CON UN COMANDO DE BASH EL SDF CORRESPONDIENTE PARA LA SIMULACION
-  set string_replace "sed -i \"s/endmodule/initial\ \\\$sdf\_annotate\(\\\"$TOP_NAME\_$mult_arch\_syn.sdf\\\"\)\\\\; \\n endmodule/g\" db/$PRECISION($x)/$TOP_NAME\_$mult_arch\_syn.v"
+  set string_replace "sed -i \"s/endmodule/initial\ \\\$sdf\_annotate\(\\\"$line2\_syn.sdf\\\"\)\\\\; \\n endmodule/g\" db/$line2\_syn.v"
   #set string_replace "sed -i \"s/endmodule/ initial \t \$sdf_annotate\(\"$TOP_NAME\_$mult_arch\_syn.sdf\"\); \n endmodule/g\" db/$PRECISION(1)/$TOP_NAME\_$mult_arch\_syn.v"
   exec /bin/sh -c "$string_replace"
   #Revisar la configuración de temporizado
   check_timing
 
-  }
-
-# #FINALIZAMOS EL LOOP
-  set x [expr {$x + 1}]
 }

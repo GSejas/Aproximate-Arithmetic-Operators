@@ -12,7 +12,7 @@ dir_list=(ASIC_fpu)
 for i in "${dir_list[@]}"
 do
  # rm $i/integracion_fisica/front_end/source/*
-  ln --symbolic $PWD/../my_sourcefiles/Source_Files/FPU_Interface/fpu/*.v ASIC_fpu/integracion_fisica/front_end/source/.
+  ln --symbolic $PWD/src_lib/my_sourcefiles/Source_Files/FPU_Interface/fpu/*.v ASIC_fpu/integracion_fisica/front_end/source/.
 done
 
 
