@@ -1,13 +1,13 @@
 //==================================================================================================
 //  Filename      : RKOA_SUBMOD.v
 //  Created On    : 2016-10-26 23:28:42
-//  Last Modified : 2016-10-31 11:09:25
+//  Last Modified : 2017-03-12 10:30:25
 //  Revision      : 
 //  Author        : Jorge Esteban Sequeira Rojas
 //  Company       : Instituto Tecnologico de Costa Rica
 //  Email         : jsequeira03@gmail.com
 //
-//  Description   : 
+//  Description   : Clock edged 2bit multiplier.
 //
 //
 //==================================================================================================

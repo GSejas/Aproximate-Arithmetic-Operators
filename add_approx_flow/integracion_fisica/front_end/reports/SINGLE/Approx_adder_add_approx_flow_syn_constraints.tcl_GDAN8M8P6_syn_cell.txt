@@ -1,0 +1,332 @@
+ 
+****************************************
+Report : cell
+Design : Approx_adder_W16
+Version: L-2016.03-SP3
+Date   : Sun Mar 12 16:52:01 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U76                       AO21X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U77                       AOI21X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U78                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U79                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U80                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U81                       NOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U82                       NOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U83                       OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U84                       NAND2XLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U85                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U86                       INVX4TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U87                       NAND2X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U88                       XOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U89                       CLKINVX6TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U90                       CLKINVX6TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U91                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U92                       OAI21X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U93                       NOR2XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U94                       OAI21XLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U95                       NOR2XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U96                       NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U97                       AND2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U98                       AOI21X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U99                       NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U100                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U101                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U102                      OR2X2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U103                      XOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U104                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U105                      OR2X2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U106                      OR2X2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U107                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U108                      OR2X4TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U109                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U110                      MXI2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U111                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U112                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U113                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U114                      OAI21XLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U115                      AND2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U116                      AOI2BB1XLTS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U117                      INVX4TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U118                      XOR2X4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          28.799999 
+U119                      AND2X4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U120                      NAND3X8TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          31.680000 
+U121                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U122                      INVX12TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U123                      NOR2X8TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U124                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U125                      NOR2X4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U126                      NOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U127                      NOR2X4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U128                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U129                      NOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U130                      XOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U131                      OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U132                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U133                      XOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U134                      NOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U135                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U136                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U137                      XNOR2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U138                      OAI2BB1X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U139                      NOR2X4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U140                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U141                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U142                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U143                      OAI21XLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U144                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U145                      OAI21XLTS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U146                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U147                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U148                      ADDFHX2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          53.279999 r
+U149                      OAI2BB1X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U150                      NOR2X8TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          18.719999 
+U151                      OR2X8TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          15.840000 
+U152                      OAI21X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          17.280001 
+U153                      XNOR2X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          27.360001 
+U154                      AOI21X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U155                      OAI21X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          17.280001 
+U156                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U157                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U158                      XOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U159                      NOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U160                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U161                      CLKXOR2X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U162                      AND2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U163                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U164                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U165                      OAI2BB1X1TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U166                      XNOR2X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          27.360001 
+U167                      CLKXOR2X2TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          12.960000 
+U168                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U169                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U170                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U171                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U172                      OAI2BB1X4TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          14.400000 
+U173                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U174                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U175                      OAI2BB1X4TS     scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          14.400000 
+U176                      OAI21X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          17.280001 
+U177                      INVX4TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U178                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U179                      NOR2X6TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          14.400000 
+U180                      NAND2BX4TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          14.400000 
+U181                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U182                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U183                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U184                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U185                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U186                      OR2X4TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U187                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U188                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U189                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U190                      NOR4X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          10.080000 
+U191                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U192                      NAND2BX1TS      scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U193                      OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U194                      NOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U195                      NOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U196                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U197                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U198                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U199                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U200                      AOI21X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          17.280001 
+U201                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U202                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U203                      AOI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U204                      OAI21X4TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          17.280001 
+U205                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U206                      OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U207                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U208                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U209                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U210                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U211                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U212                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U213                      OAI21X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U214                      OA21XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U215                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U216                      XOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U217                      MXI2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U218                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U219                      NAND2X2TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          7.200000  
+U220                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U221                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U222                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U223                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U224                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U225                      NAND2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          5.760000  
+U226                      XOR2X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U227                      XOR2XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+U228                      OA21XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U229                      OA21XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          8.640000  
+U230                      INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U231                      XNOR2X1TS       scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          11.520000 
+--------------------------------------------------------------------------------
+Total 156 cells                                           1548.000008
+1

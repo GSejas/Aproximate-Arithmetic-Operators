@@ -1,13 +1,13 @@
 //==================================================================================================
 //  Filename      : RKOA_SUBMOD.v
 //  Created On    : 2016-10-26 23:28:42
-//  Last Modified : 2016-10-27 19:48:18
+//  Last Modified : 2017-03-12 10:30:37
 //  Revision      : 
 //  Author        : Jorge Esteban Sequeira Rojas
 //  Company       : Instituto Tecnologico de Costa Rica
 //  Email         : jsequeira03@gmail.com
 //
-//  Description   : 
+//  Description   : Combinational 2bit multiplier
 //
 //
 //==================================================================================================

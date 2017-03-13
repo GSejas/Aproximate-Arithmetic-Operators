@@ -11,7 +11,7 @@ module Approx_adder
 
 generate
 
-  if (16 > W) begin : BIGGER16
+  if (16 >= W) begin : BIGGER16
 
  localparam LowL =8;
   wire  [W-1:0] in2_signed;
@@ -23,7 +23,7 @@ generate
   wire  [LowL-1:0] lower_in2;
   wire  [W-LowL-1:0] upper_in2_signed;
   wire  [LowL-1:0] lower_in2_signed;
-  wire    [W-LowL:0] temp_upper_addition;
+  wire  [W-LowL:0] temp_upper_addition;
   assign upper_in1 = in1[W-1:LowL];
   assign lower_in1 = in1[LowL-1:0];
   assign upper_in2_signed = in2_signed[W-1 : LowL];
@@ -229,14 +229,14 @@ generate
   wire  [LowL-1:0] lower_in2;
   wire  [W-LowL-1:0] upper_in2_signed;
   wire  [LowL-1:0] lower_in2_signed;
- wire    [W-LowL:0] temp_upper_addition;
+  wire  [W-LowL:0] temp_upper_addition;
   assign upper_in1 = in1[W-1:LowL];
   assign lower_in1 = in1[LowL-1:0];
   assign upper_in2_signed = in2_signed[W-1 : LowL];
   assign lower_in2_signed = in2_signed[LowL-1 : 0];
 
 
-`ifdef ACAIN16Q4
+`ifdef ACAIN16Q8
  
  assign in2_signed = (add_sub) ? -in2 : in2;
  

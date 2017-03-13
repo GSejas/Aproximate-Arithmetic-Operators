@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Approx_adder_W16
+Version: L-2016.03-SP3
+Date   : Sun Mar 12 16:52:38 2017
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: in2[1] (input port clocked by clk)
+  Endpoint: res[15] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Approx_adder_W16   ibm13_wl10            scx3_cmos8rf_lpvt_tt_1p2v_25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     3.50       3.50 f
+  in2[1] (in)                              0.00       3.50 f
+  U93/Y (CLKINVX6TS)                       0.07       3.57 r
+  U145/Y (NAND4X8TS)                       0.17       3.74 f
+  U90/Y (NOR2X4TS)                         0.24       3.98 r
+  U127/Y (NAND2BX4TS)                      0.21       4.19 f
+  U103/Y (NOR2X4TS)                        0.23       4.42 r
+  U129/Y (NAND2BX4TS)                      0.21       4.63 f
+  U116/Y (NAND2X2TS)                       0.17       4.80 r
+  U115/Y (XNOR2X2TS)                       0.31       5.11 r
+  U153/CON (AFHCONX4TS)                    0.62       5.73 f
+  U147/CO (AFHCINX4TS)                     0.34       6.08 r
+  U126/CON (AFHCONX4TS)                    0.29       6.37 f
+  U164/CO (AFHCINX4TS)                     0.37       6.74 r
+  U165/Y (AOI21X4TS)                       0.31       7.05 f
+  U167/Y (AOI2BB1X4TS)                     0.36       7.40 f
+  U130/Y (OAI21X4TS)                       0.25       7.65 r
+  U124/Y (XNOR2X2TS)                       0.34       8.00 r
+  res[15] (out)                            0.00       8.00 r
+  data arrival time                                   8.00
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  output external delay                   -2.00       8.00
+  data required time                                  8.00
+  -----------------------------------------------------------
+  data required time                                  8.00
+  data arrival time                                  -8.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

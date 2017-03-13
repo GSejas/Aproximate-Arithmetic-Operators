@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Approx_adder_W32
+Version: L-2016.03-SP3
+Date   : Sun Mar 12 16:56:40 2017
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: add_sub (input port clocked by clk)
+  Endpoint: res[28] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Approx_adder_W32   ibm13_wl10            scx3_cmos8rf_lpvt_tt_1p2v_25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     3.50       3.50 r
+  add_sub (in)                             0.00       3.50 r
+  U398/Y (INVX4TS)                         0.09       3.59 f
+  U292/Y (INVX4TS)                         0.36       3.95 r
+  U448/Y (NAND2X1TS)                       0.37       4.32 f
+  U341/Y (NAND3X1TS)                       0.61       4.94 r
+  U450/Y (OAI21X2TS)                       0.43       5.37 f
+  U406/Y (NOR3X4TS)                        0.38       5.75 r
+  U323/Y (NAND3X4TS)                       0.23       5.98 f
+  U257/Y (NAND2X6TS)                       0.16       6.14 r
+  U137/Y (NAND2X6TS)                       0.11       6.25 f
+  U253/Y (NAND3X6TS)                       0.13       6.38 r
+  U412/Y (AOI21X4TS)                       0.22       6.60 f
+  U501/Y (OAI21X4TS)                       0.36       6.95 r
+  U407/Y (NAND3X4TS)                       0.26       7.22 f
+  U418/Y (NAND3X8TS)                       0.18       7.40 r
+  U196/Y (INVX8TS)                         0.16       7.56 f
+  U518/Y (OAI21X4TS)                       0.19       7.75 r
+  U294/Y (XNOR2X2TS)                       0.24       8.00 f
+  res[28] (out)                            0.00       8.00 f
+  data arrival time                                   8.00
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  output external delay                   -2.00       8.00
+  data required time                                  8.00
+  -----------------------------------------------------------
+  data required time                                  8.00
+  data arrival time                                  -8.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

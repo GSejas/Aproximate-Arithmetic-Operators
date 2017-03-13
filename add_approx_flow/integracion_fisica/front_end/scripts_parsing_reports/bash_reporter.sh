@@ -27,7 +27,7 @@ do
             #echo ${Txt_design_name[$z]} >> "${e}.txt"
             #  for i in "${max_clk_lst[@]}"
             # do
-                      output_text=$(find $PWD -name "${MOD_FILENAME}_syn_qor.txt" -exec grep -i "$o" {} \;)
+                      output_text=$(find $PWD/../reports -name "${MOD_FILENAME}_syn_*.txt" -exec grep -i "$o" {} \;)
                   #echo $output_text
                   number=$(echo $output_text  | grep -oP '[0-9]*\.?[0-9]*' | sed -e "s/^/${MOD_FILENAME},    /")
                   echo $number

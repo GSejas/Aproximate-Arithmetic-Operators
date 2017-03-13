@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Approx_adder_W16
+Version: L-2016.03-SP3
+Date   : Sun Mar 12 17:15:16 2017
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: in2[0] (input port clocked by clk)
+  Endpoint: res[15] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Approx_adder_W16   ibm13_wl10            scx3_cmos8rf_lpvt_tt_1p2v_25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     3.50       3.50 f
+  in2[0] (in)                              0.00       3.50 f
+  U107/Y (OR4X6TS)                         0.49       3.99 f
+  U60/Y (NOR2X6TS)                         0.19       4.18 r
+  U108/Y (NAND2BX4TS)                      0.19       4.37 f
+  U65/Y (NOR2X6TS)                         0.20       4.57 r
+  U92/Y (NAND2BX4TS)                       0.20       4.77 f
+  U109/Y (NOR2X8TS)                        0.17       4.95 r
+  U102/Y (NAND2BX4TS)                      0.17       5.11 f
+  U71/Y (NOR2X4TS)                         0.23       5.34 r
+  U110/Y (NAND2BX4TS)                      0.21       5.55 f
+  U75/Y (NAND2X2TS)                        0.17       5.71 r
+  U68/Y (XNOR2X2TS)                        0.29       6.01 f
+  U62/Y (NAND2X1TS)                        0.45       6.45 r
+  U129/Y (INVX2TS)                         0.34       6.79 f
+  U72/Y (AOI21X2TS)                        0.34       7.13 r
+  U105/Y (OAI21X4TS)                       0.25       7.38 f
+  U66/Y (AOI21X2TS)                        0.27       7.65 r
+  U63/Y (XOR2X1TS)                         0.33       7.99 f
+  res[15] (out)                            0.00       7.99 f
+  data arrival time                                   7.99
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  output external delay                   -2.00       8.00
+  data required time                                  8.00
+  -----------------------------------------------------------
+  data required time                                  8.00
+  data arrival time                                  -7.99
+  -----------------------------------------------------------
+  slack (MET)                                         0.01
+
+
+1

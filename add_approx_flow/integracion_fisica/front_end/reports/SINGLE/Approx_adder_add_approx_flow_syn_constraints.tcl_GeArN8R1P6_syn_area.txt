@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : Approx_adder_W16
+Version: L-2016.03-SP3
+Date   : Sun Mar 12 16:53:16 2017
+****************************************
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/IBM/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                           50
+Number of nets:                           164
+Number of cells:                          124
+Number of combinational cells:            124
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                      40
+
+Combinational area:               1480.320006
+Buf/Inv area:                       64.800003
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:           12973.398376
+
+Total cell area:                  1480.320006
+Total area:                      14453.718382
+1

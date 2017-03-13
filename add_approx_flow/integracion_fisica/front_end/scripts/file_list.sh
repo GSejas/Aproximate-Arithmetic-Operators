@@ -1,2 +1,2 @@
 #!/bin/bash
-ls ../source/. > file_list
+ls ../source/*.v > file_list

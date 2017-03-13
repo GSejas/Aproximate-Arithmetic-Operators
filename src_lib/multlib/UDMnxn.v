@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 
-module UDM_nxnA
+module UDM_nxnB
  #(parameter W=2) (
         input wire [W-1:0] in1,
         input wire [W-1:0] in2,

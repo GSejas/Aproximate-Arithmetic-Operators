@@ -16,7 +16,7 @@ set cache_write ""
 set home_base {$PWD} 
 set search_path "$home_base"
 set search_path [concat $search_path ./libs ./db ./source ./scripts]
-set search_path    "$search_path /media/datos/IBM/TECH/ibm130_lp/digital"
+set search_path    "$search_path /mnt/vol_NFS_Zener/WD_ESPEC/jsequeira/IBM"
 
 set target_library "scx3_cmos8rf_lpvt_tt_1p2v_25c.db"
 set synthetic_library dw_foundation.sldb

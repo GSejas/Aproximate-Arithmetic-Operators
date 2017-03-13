@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Approx_adder_W16
+Version: L-2016.03-SP3
+Date   : Sun Mar 12 16:50:35 2017
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: in2[2] (input port clocked by clk)
+  Endpoint: res[14] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Approx_adder_W16   ibm13_wl10            scx3_cmos8rf_lpvt_tt_1p2v_25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     3.50       3.50 f
+  in2[2] (in)                              0.00       3.50 f
+  U148/Y (NOR3X8TS)                        0.20       3.70 r
+  U107/Y (AND2X6TS)                        0.28       3.99 r
+  U106/Y (NAND2X8TS)                       0.13       4.12 f
+  U66/Y (NOR2X6TS)                         0.19       4.30 r
+  U111/Y (NAND2BX4TS)                      0.19       4.49 f
+  U63/Y (NOR2X4TS)                         0.21       4.70 r
+  U62/Y (NAND2BX2TS)                       0.28       4.98 f
+  U84/Y (NOR2X4TS)                         0.27       5.24 r
+  U82/Y (NAND2BX4TS)                       0.19       5.43 f
+  U59/Y (NOR2X2TS)                         0.32       5.75 r
+  U58/Y (NAND2BX2TS)                       0.32       6.07 f
+  U54/Y (NAND2X1TS)                        0.30       6.36 r
+  U117/Y (XNOR2X2TS)                       0.36       6.72 f
+  U51/Y (OR2X2TS)                          0.47       7.19 f
+  U48/Y (NAND2XLTS)                        0.38       7.57 r
+  U86/Y (XOR2X1TS)                         0.42       7.99 f
+  res[14] (out)                            0.00       7.99 f
+  data arrival time                                   7.99
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  output external delay                   -2.00       8.00
+  data required time                                  8.00
+  -----------------------------------------------------------
+  data required time                                  8.00
+  data arrival time                                  -7.99
+  -----------------------------------------------------------
+  slack (MET)                                         0.01
+
+
+1
